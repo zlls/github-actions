@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "ncc build src/index.js -o dist"
+  },
+  "dependencies": {
+    "@actions/core": "^1.0.0"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.1"
+  }
+}
