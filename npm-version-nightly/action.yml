@@ -1,0 +1,5 @@
+name: "NPM publish nightly"
+description: "Publish a nightly release to NPM"
+runs:
+  using: "node12"
+  main: "dist/index.js"
